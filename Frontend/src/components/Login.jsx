@@ -1,8 +1,12 @@
+
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import toast from "react-hot-toast";
+
+
 function Login() {
   const {
     register,
@@ -36,12 +40,12 @@ function Login() {
         }
       });
   };
+
   return (
     <div>
       <dialog id="my_modal_3" className="modal">
         <div className="modal-box">
           <form onSubmit={handleSubmit(onSubmit)} method="dialog">
-            {/* if there is a button in form, it will close the modal */}
             <Link
               to="/"
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
@@ -51,9 +55,8 @@ function Login() {
             </Link>
 
             <h3 className="font-bold text-lg">Login</h3>
-            {/* Email */}
             <div className="mt-4 space-y-2">
-              <span>Email</span>
+              <span>Email</span>    
               <br />
               <input
                 type="email"
@@ -63,12 +66,9 @@ function Login() {
               />
               <br />
               {errors.email && (
-                <span className="text-sm text-red-500">
-                  This field is required
-                </span>
+                <span className="text-sm text-red-500">This field is required</span>
               )}
             </div>
-            {/* password */}
             <div className="mt-4 space-y-2">
               <span>Password</span>
               <br />
@@ -80,25 +80,18 @@ function Login() {
               />
               <br />
               {errors.password && (
-                <span className="text-sm text-red-500">
-                  This field is required
-                </span>
+                <span className="text-sm text-red-500">This field is required</span>
               )}
             </div>
-
-            {/* Button */}
             <div className="flex justify-around mt-6">
               <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
                 Login
               </button>
               <p>
                 Not registered?{" "}
-                <Link
-                  to="/signup"
-                  className="underline text-blue-500 cursor-pointer"
-                >
+                <Link to="/signup" className="underline text-blue-500 cursor-pointer">
                   Signup
-                </Link>{" "}
+                </Link>
               </p>
             </div>
           </form>

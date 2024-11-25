@@ -3,7 +3,9 @@ import Navbar from '../Navbar'
 import Course from '../Course'
 import Footer from '../Footer'
 
+
 function Courses() {
+
   return (
     <>
       <Navbar />

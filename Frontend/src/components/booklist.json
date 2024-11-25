@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "OOPs",
+        "title": "Understand the fundamentals of Object-Oriented Programming, including classes, objects, inheritance, and polymorphism.",
+        "category": "CSE",
+        "image": "https://m.media-amazon.com/images/I/618gXvIEizL._AC_UF1000,1000_QL80_.jpg",
+        "link":  "https://drive.google.com/file/d/10rMiyg7_0XebcKHl9-OyGERP3JbAh2Bz/view?usp=sharing"
+    },
+    {
+        "id": 2,
+        "name": "Operating System",
+        "title": "Learn the core concepts of OS including process management, memory, and file systems.",
+        "category": "CSE",
+        "image": "https://www.freepik.com/premium-vector/technology-concept-vector-illustration-featuring-algorithm-design-elements-flat-style_250231361.htm#fromView=keyword&page=1&position=27&uuid=905d95a1-ad49-4918-a2f3-bf9530e0205f",
+        "link": "https://drive.google.com/file/d/1qvxKIOIUvxCJv2FuDCYxPRQn2wgz_Y1u/view?usp=sharing"
+    },
+    {
+        "id": 3,
+        "name": "DBMS",
+        "title": "Explore the world of Database Management Systems, covering relational models, normalization, and SQL.",
+        "category": "CSe",
+        "image": "https://www.shutterstock.com/image-vector/dbms-database-management-system-concept-computer-395830441",
+        "link": "https://drive.google.com/file/d/1uL5NKHDmP6uHF-XJgpwp0mfo5L4GtaMO/view?usp=sharing"
+    },
+    {
+        "id": 4,
+        "name": "Computer Network",
+        "title": "Learn about networking protocols, IP addressing, and network architecture in the context of computer networks.",
+        "category": "CSE",
+        "image": "https://www.freepik.com/free-photo/laptop-which-there-is-world-people-drawn_969879.htm#fromView=keyword&page=1&position=49&uuid=fa2935be-66bf-4640-b4a4-44d4d8b3f666",
+        "link": "https://drive.google.com/file/d/15bW4EJRfLTQVNfGuGRgmGuz-QzttXw-X/view?usp=sharing"
+    },
+    {
+        "id": 5,
+        "name": "Cyber Security",
+        "title": "Understand the principles of cybersecurity, including cryptography, ethical hacking, and threat mitigation.",
+        "category": "CSE",
+        "image": "https://www.shutterstock.com/image-photo/business-person-explore-core-cyber-security-2510584693",
+        "link": "https://drive.google.com/file/d/1Q5UR-0mTG7DVsYYm8d1_okQa2CrabLfD/view?usp=sharing"
+    },
+    {
+        "id": 6,
+        "name": "Artificial Intelligence",
+        "title": "Explore AI concepts, including machine learning, neural networks, and natural language processing.",
+        "category": "CSE",
+        "image": "https://www.shutterstock.com/image-photo/ai-artificial-intelligence-education-technology-concept-2475630335",
+        "link": "https://drive.google.com/file/d/1WhzwikycsyWXmPC9JBOwrPSNsXYY00Hr/view?usp=sharing"
+    },
+    {
+        "id": 7,
+        "name": "Machine Learning",
+        "title": "Master machine learning algorithms, data preprocessing, and model evaluation techniques.",
+        "category": "CSE",
+        "image": "https://www.shutterstock.com/image-photo/global-communication-network-concept-digital-transformation-1894154221",
+        "link": "https://drive.google.com/file/d/1wAGc4VHgNvaOxwf96H2SjxESvmk-2YTB/view?usp=sharing"
+    },
+    {
+        "id": 8,
+        "name": "Web Technology",
+        "title": "Dive into web development technologies like HTML, CSS, JavaScript, and the latest trends in web frameworks.",
+        "category": "CSE",
+        "image": "https://www.freepik.com/free-photo/programming-background-collage_34089171.htm#fromView=keyword&page=1&position=7&uuid=b5762819-b9eb-438f-89df-ebddaf4790ff",
+        "link": "https://drive.google.com/file/d/1ZPQ4BlJMJzFPVjqTosJPoJuqBX6ahQ4e/view?usp=sharing"
+    },
+    {
+        "id": 9,
+        "name": "Software Testing",
+        "title": "Learn the various types of software testing, including unit, integration, and system testing.",
+        "category": "CSE",
+        "image": "https://www.shutterstock.com/image-photo/internet-business-technology-network-concept-inscription-2502430151",
+        "link": "https://drive.google.com/file/d/1AcioI5mk5F_bn0-ALTou3fnybmmlUfaR/view?usp=sharing"
+    },
+    {
+        "id": 10,
+        "name": "Cloud Computing",
+        "title": "Understand cloud computing models, including IaaS, PaaS, and SaaS, and their real-world applications.",
+        "category": "CSE",
+        "image": "https://www.freepik.com/free-vector/cloud-computing-infographic_710754.htm#fromView=keyword&page=1&position=29&uuid=844cba21-e004-4328-9c96-404f92275b32",
+        "link": "https://drive.google.com/file/d/1b_nN6E7W0dIlB1FARmccWe8N_6-TyHjT/view?usp=sharing"
+    },
+    {
+        "id": 11,
+        "name": "DSA",
+        "title": "Master Data Structures and Algorithms to improve problem-solving skills and coding efficiency.",
+        "category": "CSE",
+        "image": "https://www.shutterstock.com/image-photo/igniting-innovation-harnessing-power-coding-programming-2425426569",
+        "link": "https://drive.google.com/file/d/1u2Sf0km469Y70f6T8rkRtpvtCUbFEURT/view?usp=sharing"
+    },
+    {
+        "id": 12,
+        "name": "Software Engineering",
+        "title": "Learn the principles of software engineering, including development methodologies, project management, and testing.",
+        "category": "CSE",
+        "image": "https://www.shutterstock.com/image-photo/data-science-big-technology-scientist-computing-2284126663",
+        "link": "https://drive.google.com/file/d/1L8U7wIuZPL4MW4yMtccBacTipOl7CtCy/view?usp=sharing"
+    }
+]

@@ -1,0 +1,343 @@
+[
+
+    {
+     
+      "id": 1,
+      "name": "OOPs",
+      "title": "Understand the fundamentals of Object-Oriented Programming, including classes, objects, inheritance, and polymorphism.",
+      "category": "CSE",
+      "image": "https://d24f1whwu8r3u4.cloudfront.net/assets/book-covers/oo_ruby-16afdd1ea90f62931d9107a9126901912a86f5d7194b820aa1f050c94caa8aa7.png",
+      "link": "https://drive.google.com/file/d/10rMiyg7_0XebcKHl9-OyGERP3JbAh2Bz/view?usp=sharing"
+    },
+    {
+      
+      "id": 2,
+      "name": "Operating System",
+      "title": "Learn the core concepts of OS including process management, memory, and file systems.",
+      "category": "CSE",
+      "image": "https://www.ajayonlinestall.com/wp-content/uploads/2022/12/ATU1940.jpg",
+      "link": "https://drive.google.com/file/d/1qvxKIOIUvxCJv2FuDCYxPRQn2wgz_Y1u/view?usp=sharing"
+    },
+    
+    {
+      
+      "id": 3,
+      "name": "DBMS",
+      "title": "Explore the world of Database Management Systems, covering relational models, normalization, and SQL.",
+      "category": "CSe",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRJ250x8JMPtleE8i4Yr_7hLmglYeQcVZPog&s",
+      "link": "https://drive.google.com/file/d/1uL5NKHDmP6uHF-XJgpwp0mfo5L4GtaMO/view?usp=sharing"
+    },
+    
+    {
+     
+      "id": 4,
+      "name": "Computer Network",
+      "title": "Learn about networking protocols, IP addressing, and network architecture in the context of computer networks.",
+      "category": "CSE",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNGq_kX-N8QehVzAW1LNTMo1PVx2bpXuQVdA&s",
+      "link": "https://drive.google.com/file/d/15bW4EJRfLTQVNfGuGRgmGuz-QzttXw-X/view?usp=sharing"
+    },
+    {
+     
+      "id": 5,
+      "name": "Cyber Security",
+      "title": "Understand the principles of cybersecurity, including cryptography, ethical hacking, and threat mitigation.",
+      "category": "CSE",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYWmmOYVuz22Xw7k2NHGYr5L0xqZk58RXBXw&s",
+      "link": "https://drive.google.com/file/d/1Q5UR-0mTG7DVsYYm8d1_okQa2CrabLfD/view?usp=sharing"
+    },
+    
+    {
+      
+      "id": 6,
+      "name": "Artificial Intelligence",
+      "title": "Explore AI concepts, including machine learning, neural networks, and natural language processing.",
+      "category": "CSE",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3dugthbx7jlukJyaNVFgCRlhimkZ08jKHQ&s",
+      "link": "https://drive.google.com/file/d/1WhzwikycsyWXmPC9JBOwrPSNsXYY00Hr/view?usp=sharing"
+    },
+    
+    {
+     
+      "id": 7,
+      "name": "Machine Learning",
+      "title": "Master machine learning algorithms, data preprocessing, and model evaluation techniques.",
+      "category": "CSE",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2023/10/351517994/MX/GR/YT/150254197/machine-learning-for-beginners-2023-500x500.png",
+      "link": "https://drive.google.com/file/d/1wAGc4VHgNvaOxwf96H2SjxESvmk-2YTB/view?usp=sharing"
+    },
+    {
+      
+      "id": 8,
+      "name": "Web Technology",
+      "title": "Dive into web development technologies like HTML, CSS, JavaScript, and the latest trends in web frameworks.",
+      "category": "CSE",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYSNcOuDeKRH-VuA2HKq38hHCvsREZSrQvFw&s",
+      "link": "https://drive.google.com/file/d/1ZPQ4BlJMJzFPVjqTosJPoJuqBX6ahQ4e/view?usp=sharing"
+    },
+    {
+      
+      "id": 9,
+      "name": "Software Testing",
+      "title": "Learn the various types of software testing, including unit, integration, and system testing.",
+      "category": "CSE",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJECIpsbA54ON5yl9yKxk0ZfSn7yFSRJT2oA&s",
+      "link": "https://drive.google.com/file/d/1AcioI5mk5F_bn0-ALTou3fnybmmlUfaR/view?usp=sharing"
+    },
+    {
+      
+      "id": 10,
+      "name": "Cloud Computing",
+      "title": "Understand cloud computing models, including IaaS, PaaS, and SaaS, and their real-world applications.",
+      "category": "CSE",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDds4fz0sjMtpnKeC6XR5CPEb10X_kmHLKA&s",
+      "link": "https://drive.google.com/file/d/1b_nN6E7W0dIlB1FARmccWe8N_6-TyHjT/view?usp=sharing"
+    },
+    {
+     
+      "id": 11,
+      "name": "DSA",
+      "title": "Master Data Structures and Algorithms to improve problem-solving skills and coding efficiency.",
+      "category": "CSE",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR91FmsbOblzyC7kA9WqfQCfuXYP7YZCmNa2g&s",
+      "link": "https://drive.google.com/file/d/1u2Sf0km469Y70f6T8rkRtpvtCUbFEURT/view?usp=sharing"
+    },
+    {
+     
+      "id": 12,
+      "name": "Software Engineering",
+      "title": "Learn the principles of software engineering, including development methodologies, project management, and testing.",
+      "category": "CSE",
+      "image": "https://www.madrasshoppe.com/41420-large_default/software-engineering-kk-aggarwal.jpg",
+      "link": "https://drive.google.com/file/d/1L8U7wIuZPL4MW4yMtccBacTipOl7CtCy/view?usp=sharing"
+    },
+    
+        {
+            "id": 13,
+            "name": "Analog and Digital Electronics",
+            "title": "Learn about analog and digital electronics, including circuits and devices.",
+            "category": "EEE",
+            "image": "https://m.media-amazon.com/images/I/618gXvIEizL._AC_UF1000,1000_QL80_.jpg",
+            "link":  "https://drive.google.com/file/d/1HPA9LvcWnZ9xy-70k7nwqf_b4XvoKDvn/view?usp=sharing"
+        },
+        {
+            "id": 14,
+            "name": "Electromagnetic Field Theory",
+            "title": "Explore the principles of electromagnetic field theory and applications.",
+            "category": "EEE",
+            "image": "https://www.freepik.com/premium-vector/technology-concept-vector-illustration-featuring-algorithm-design-elements-flat-style_250231361.htm#fromView=keyword&page=1&position=27&uuid=905d95a1-ad49-4918-a2f3-bf9530e0205f",
+            "link": "https://drive.google.com/file/d/1so2-U9p9p8Bt7xx_SV_QGW3ZGKC8okgr/view?usp=sharing"
+        },
+        {
+            "id": 15,
+            "name": "Power Systems",
+            "title": "Learn about power systems, including generation, transmission, and distribution.",
+            "category": "EEE",
+            "image": "https://www.shutterstock.com/image-vector/dbms-database-management-system-concept-computer-395830441",
+            "link": "https://drive.google.com/file/d/1zk6Pj2NPCEMOHF3ImdCy67yFp5oS4j_v/view?usp=sharing"
+        },
+        {
+            "id": 16,
+            "name": "Microprocessors and Microcontrollers",
+            "title": "Understand microprocessors and microcontrollers with a focus on design and interfacing.",
+            "category": "EEE",
+            "image": "https://www.freepik.com/free-photo/laptop-which-there-is-world-people-drawn_969879.htm#fromView=keyword&page=1&position=49&uuid=fa2935be-66bf-4640-b4a4-44d4d8b3f666",
+            "link": "https://drive.google.com/file/d/1Jk5InEyQYJTLIek4zYp6S9vlcD69XpLW/view?usp=sharing"
+        },
+        {
+            "id": 17,
+            "name": "Control Systems",
+            "title": "Learn about control systems and their applications in automation.",
+            "category": "EEE",
+            "image": "https://www.shutterstock.com/image-photo/business-person-explore-core-cyber-security-2510584693",
+            "link": "https://drive.google.com/file/d/1iL4x_-hFwAXOBpVBsL-11RgxNeJ-CkPa/view?usp=sharing"
+        },
+        {
+            "id": 18,
+            "name": "Electrical Circuit Analysis",
+            "title": "Master the analysis of electrical circuits and their components.",
+            "category": "EEE",
+            "image": "https://www.shutterstock.com/image-photo/ai-artificial-intelligence-education-technology-concept-2475630335",
+            "link": "https://drive.google.com/file/d/1wEfETwiUnlk4LQRTKF_0lv77Ur35ptzu/view?usp=sharing"
+        },
+        {
+            "id": 19,
+            "name": "Electrical Machines",
+            "title": "Explore the concepts and operations of electrical machines.",
+            "category": "EEE",
+            "image": "https://www.shutterstock.com/image-photo/global-communication-network-concept-digital-transformation-1894154221",
+            "link": "https://drive.google.com/file/d/1rSAmBLUgFwwF-KoIMv27AG47kklRGFc8/view?usp=sharing"
+        },
+         {
+            "id": 20,
+            "name": "Electrical Drives and Controls",
+            "title": "Learn about electrical drives and their control mechanisms.",
+            "category": "EEE",
+            "image": "https://www.freepik.com/free-photo/programming-background-collage_34089171.htm#fromView=keyword&page=1&position=7&uuid=b5762819-b9eb-438f-89df-ebddaf4790ff",
+            "link": "https://drive.google.com/file/d/1X1DLlVno1vR9pbVYkWXw1aWcGWhwIm76/view?usp=sharing"
+        },
+        {
+            "id": 21,
+            "name": "High Voltage Engineering",
+            "title": "Understand high voltage engineering concepts and their applications.",
+            "category": "EEE",
+            "image": "https://www.shutterstock.com/image-photo/internet-business-technology-network-concept-inscription-2502430151",
+            "link": "https://drive.google.com/file/d/1tBMDB4XGkF-ENdwfbiDeFfEJrAN7TbvQ/view?usp=sharing"
+        },
+        {
+            "id": 22,
+            "name": "Power Electronics",
+            "title": "Master power electronics and their applications in modern devices.",
+            "category": "EEE",
+            "image": "https://www.freepik.com/free-vector/cloud-computing-infographic_710754.htm#fromView=keyword&page=1&position=29&uuid=844cba21-e004-4328-9c96-404f92275b32",
+            "link": "https://drive.google.com/file/d/166lQ3w8vdeAOvLx607o9QcI1PbFwibBZ/view?usp=sharing"
+        },
+        {
+            "id": 23,
+            "name": "Renewable Energy Sources",
+            "title": "Explore renewable energy sources and their role in sustainable development.",
+            "category": "EEE",
+            "image": "https://www.shutterstock.com/image-photo/igniting-innovation-harnessing-power-coding-programming-2425426569",
+            "link": "https://drive.google.com/file/d/1tyc1xHoC10NfaljH8dWAiXnNHTnWVuiX/view?usp=sharing"
+        },
+        {
+            "id": 24,
+            "name": "Utilization of Electrical Energy",
+            "title": "Learn efficient methods for utilizing electrical energy.",
+            "category": "EEE",
+            "image": "https://www.shutterstock.com/image-photo/data-science-big-technology-scientist-computing-2284126663",
+            "link": "https://drive.google.com/file/d/1U1NWydQEwmKhE0-Xj2WQjo2YsB-YAoA6/view?usp=sharing"
+        },
+      {
+            "id": 25,
+            "name": "Signals and Systems",
+            "title": "Understand the principles and applications of Signals and Systems.",
+            "category": "EEE",
+            "image": "https://www.shutterstock.com/image-photo/data-science-big-technology-scientist-computing-2284126663",
+            "link": "https://drive.google.com/file/d/18pOhYtofcWy5nVaalFLNvlqnSrhh8zYS/view?usp=sharing"
+        },
+        {
+            "id": 26,
+            "name": "Engineering Mechanics",
+            "title": "Explore the fundamentals of Engineering Mechanics and its practical applications.",
+            "category": "ME",
+            "image": "https://m.media-amazon.com/images/I/618gXvIEizL._AC_UF1000,1000_QL80_.jpg",
+            "link": "https://drive.google.com/file/d/1PPpduvzElA2zkrcoaUPhbrrTesC23XIZ/view?usp=sharing"
+        },
+        {
+            "id": 27,
+            "name": "Automobile Engineering",
+            "title": "Learn the concepts and advancements in Automobile Engineering.",
+            "category": "ME",
+            "image": "https://www.freepik.com/premium-vector/technology-concept-vector-illustration-featuring-algorithm-design-elements-flat-style_250231361.htm#fromView=keyword&page=1&position=27&uuid=905d95a1-ad49-4918-a2f3-bf9530e0205f",
+            "link": "https://drive.google.com/file/d/1PPpduvzElA2zkrcoaUPhbrrTesC23XIZ/view?usp=sharing"
+        },
+        {
+            "id": 28,
+            "name": "Fluid Mechanics",
+            "title": "Understand the principles and applications of Fluid Mechanics.",
+            "category": "ME",
+            "image": "https://www.shutterstock.com/image-vector/dbms-database-management-system-concept-computer-395830441",
+            "link": "https://drive.google.com/file/d/1nVapEXk7-EA9OiwH3e7eBGWAajTXa6TG/view?usp=sharing"
+        },
+        {
+            "id": 29,
+            "name": "Material Science and Metallurgy",
+            "title": "Learn the basics of Material Science and Metallurgy.",
+            "category": "ME",
+            "image": "https://www.freepik.com/free-photo/laptop-which-there-is-world-people-drawn_969879.htm#fromView=keyword&page=1&position=49&uuid=fa2935be-66bf-4640-b4a4-44d4d8b3f666",
+            "link": "https://drive.google.com/file/d/1nVapEXk7-EA9OiwH3e7eBGWAajTXa6TG/view?usp=sharing"
+        },
+        {
+            "id": 30,
+            "name": "Heat and Mass Transfer",
+            "title": "Dive into the concepts of Heat and Mass Transfer.",
+            "category": "ME",
+            "image": "https://www.shutterstock.com/image-photo/business-person-explore-core-cyber-security-2510584693",
+            "link": "https://drive.google.com/file/d/1w0wkMXJslrce3CcmOcPoEBbEW7uYwjTB/view?usp=sharing"
+        },
+        {
+            "id": 31,
+            "name": "Machine Design",
+            "title": "Understand the principles and techniques of Machine Design.",
+            "category": "ME",
+            "image": "https://www.shutterstock.com/image-photo/ai-artificial-intelligence-education-technology-concept-2475630335",
+            "link": "https://drive.google.com/file/d/1aUDqyHUWce_8kRmh8AIyT8jNY7wJZrPM/view?usp=sharing"
+        },
+        {
+            "id": 32,
+            "name": "Manufacturing Processes",
+            "title": "Explore the fundamentals of Manufacturing Processes.",
+            "category": "ME",
+            "image": "https://www.shutterstock.com/image-photo/global-communication-network-concept-digital-transformation-1894154221",
+            "link": "https://drive.google.com/file/d/176pFWw7T5KVPSjX_GYUErtUHTUWwgxKb/view?usp=sharing"
+        },
+        {
+            "id": 33,
+            "name": "Robotics and Automation",
+            "title": "Learn the concepts of Robotics and Automation.",
+            "category": "ME",
+            "image": "https://www.freepik.com/free-photo/programming-background-collage_34089171.htm#fromView=keyword&page=1&position=7&uuid=b5762819-b9eb-438f-89df-ebddaf4790ff",
+            "link": "https://drive.google.com/file/d/1Ux5YktwpZd18Maqpzeldq2PMHinOCH0W/view?usp=sharing"
+        },
+        {
+            "id": 34,
+            "name": "Strength of Materials",
+            "title": "Understand the Strength of Materials and its applications.",
+            "category": "ME",
+            "image": "https://www.shutterstock.com/image-photo/internet-business-technology-network-concept-inscription-2502430151",
+            "link": "https://drive.google.com/file/d/1UKrLn7OkYF0zTzRZh28nY2r7OSpVchwA/view?usp=sharing"
+        },
+        {
+            "id": 35,
+            "name": "Theory of Machines",
+            "title": "Explore the principles of Theory of Machines.",
+            "category": "ME",
+            "image": "https://www.freepik.com/free-vector/cloud-computing-infographic_710754.htm#fromView=keyword&page=1&position=29&uuid=844cba21-e004-4328-9c96-404f92275b32",
+            "link": "https://drive.google.com/file/d/1Tf_mW28X2tNhEFgFUhcfy_nCf4cTZVAv/view?usp=sharing"
+        },
+        {
+            "id": 36,
+            "name": "Thermodynamics",
+            "title": "Master the core concepts of Thermodynamics.",
+            "category": "ME",
+            "image": "https://www.shutterstock.com/image-photo/igniting-innovation-harnessing-power-coding-programming-2425426569",
+            "link": "https://drive.google.com/file/d/19UTxWUTVhzitOvfZv8bHb4v4phq_edvq/view?usp=sharing"
+        },
+        {
+            "id": 37,
+            "name": "Fluid Mechanics",
+            "title": "Understand the principles and applications of Fluid Mechanics.",
+            "category": "CE",
+            "image": "https://www.shutterstock.com/image-vector/dbms-database-management-system-concept-computer-395830441",
+            "link": "https://drive.google.com/file/d/1nVapEXk7-EA9OiwH3e7eBGWAajTXa6TG/view?usp=sharing"
+        },
+        {
+            "id": 38,
+            "name": "Engineering Mechanics",
+            "title": "Explore the fundamentals of Engineering Mechanics and its practical applications.",
+            "category": "CE",
+            "image": "https://m.media-amazon.com/images/I/618gXvIEizL._AC_UF1000,1000_QL80_.jpg",
+            "link": "https://drive.google.com/file/d/1PPpduvzElA2zkrcoaUPhbrrTesC23XIZ/view?usp=sharing"
+        },
+        {
+            "id": 39,
+            "name": "Strength of Materials",
+            "title": "Understand the Strength of Materials and its applications.",
+            "category": "CE",
+            "image": "https://www.shutterstock.com/image-photo/internet-business-technology-network-concept-inscription-2502430151",
+            "link": "https://drive.google.com/file/d/1UKrLn7OkYF0zTzRZh28nY2r7OSpVchwA/view?usp=sharing"
+        },
+        {
+            "id": 40,
+            "name": "Structural Analysis",
+            "title": "Learn the principles and techniques of Structural Analysis.",
+            "category": "CE",
+            "image": "https://www.shutterstock.com/image-photo/internet-business-technology-network-concept-inscription-2502430151",
+            "link": "https://drive.google.com/file/d/1ZFSDDYvZ1Uawb6zPSltQsLMbgrIM9va7/view?usp=sharing"
+        }
+    
+    
+    ]
+    

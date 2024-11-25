@@ -1,0 +1,272 @@
+// // About.jsx
+// import React from "react";
+// import Navbar from "./Navbar";
+// import Footer from "./Footer";
+
+// const About = () => {
+//   return (
+//     <>
+//     <Navbar />
+//     <main className="flex-grow bg-gray-100 py-10 px-4 md:px-10">
+//         <div className="container mx-auto max-w-4xl bg-white shadow-md rounded-lg p-6">
+//           <h2 className="text-3xl font-bold text-gray-800 mb-4 text-center">
+//             About Us
+//           </h2>
+//           <p className="text-gray-600 mb-4 text-center">
+//             Welcome to <span className="font-semibold">BookWorld</span>, your
+//             go-to platform for free access to engineering books. Our mission is
+//             to make education accessible and affordable for every student,
+//             especially those pursuing technical fields.
+//           </p>
+
+//           <section className="mb-6">
+//             <h3 className="text-2xl font-semibold text-gray-700 mb-2">
+//               Our Mission
+//             </h3>
+//             <p className="text-gray-600">
+//               We believe that quality education should not be a luxury. With
+//               BookWorld, we aim to bridge the gap by offering a diverse
+//               collection of books that students can read online or download for
+//               free. This platform is specially curated for engineering students
+//               to find resources tailored to their syllabus and interests.
+//             </p>
+//           </section>
+
+//           <section className="mb-6">
+//             <h3 className="text-2xl font-semibold text-gray-700 mb-2">
+//               Key Features
+//             </h3>
+//             <ul className="list-disc list-inside text-gray-600">
+//               <li>Read books online for free, anytime, anywhere.</li>
+//               <li>Download books for offline access.</li>
+//               <li>
+//                 Categorized collection of books covering all major engineering
+//                 branches and subjects.
+//               </li>
+//               <li>Responsive and user-friendly interface for seamless navigation.</li>
+//             </ul>
+//           </section>
+
+//           <section className="mb-6">
+//             <h3 className="text-2xl font-semibold text-gray-700 mb-2">
+//               Our Vision
+//             </h3>
+//             <p className="text-gray-600">
+//               In the future, we aim to expand our library to include interactive
+//               content such as video tutorials and project ideas. We are also
+//               working on collaborating with educators to provide additional
+//               resources and personalized learning experiences.
+//             </p>
+//           </section>
+
+//           <section>
+//             <h3 className="text-2xl font-semibold text-gray-700 mb-2">
+//               Why Choose Us?
+//             </h3>
+//             <p className="text-gray-600">
+//               Unlike other platforms, BookWorld focuses solely on empowering
+//               engineering students by removing barriers to quality education.
+//               Whether you're preparing for exams, working on projects, or
+//               exploring new topics, we’ve got you covered.
+//             </p>
+//           </section>
+//         </div>
+//       </main>
+// <Footer />
+//     </>
+//<div className="flex flex-col min-h-screen">
+{/* Navbar */ }
+{/* <nav className="bg-blue-600 text-white py-4 shadow-lg">
+    //     <div className="container mx-auto flex justify-between items-center">
+    //       <h1 className="text-xl font-bold">BookWorld</h1>
+    //       <ul className="flex space-x-4">
+    //         <li>
+    //           <a href="/" className="hover:underline">
+    //             Home
+    //           </a>
+    //         </li>
+    //         <li>
+    //           <a href="/books" className="hover:underline">
+    //             Books
+    //           </a>
+    //         </li>
+    //         <li>
+    //           <a href="/contact" className="hover:underline">
+    //             Contact
+    //           </a>
+    //         </li>
+    //       </ul>
+    //     </div>
+    //   </nav> */}
+
+//   {/* About Content */}
+
+//   <main className="flex-grow bg-gray-100 py-10 px-4 md:px-10">
+//     <div className="container mx-auto max-w-4xl bg-white shadow-md rounded-lg p-6">
+//       <h2 className="text-3xl font-bold text-gray-800 mb-4 text-center">
+//         About Us
+//       </h2>
+//       <p className="text-gray-600 mb-4 text-center">
+//         Welcome to <span className="font-semibold">BookWorld</span>, your
+//         go-to platform for free access to engineering books. Our mission is
+//         to make education accessible and affordable for every student,
+//         especially those pursuing technical fields.
+//       </p>
+
+//       <section className="mb-6">
+//         <h3 className="text-2xl font-semibold text-gray-700 mb-2">
+//           Our Mission
+//         </h3>
+//         <p className="text-gray-600">
+//           We believe that quality education should not be a luxury. With
+//           BookWorld, we aim to bridge the gap by offering a diverse
+//           collection of books that students can read online or download for
+//           free. This platform is specially curated for engineering students
+//           to find resources tailored to their syllabus and interests.
+//         </p>
+//       </section>
+
+//       <section className="mb-6">
+//         <h3 className="text-2xl font-semibold text-gray-700 mb-2">
+//           Key Features
+//         </h3>
+//         <ul className="list-disc list-inside text-gray-600">
+//           <li>Read books online for free, anytime, anywhere.</li>
+//           <li>Download books for offline access.</li>
+//           <li>
+//             Categorized collection of books covering all major engineering
+//             branches and subjects.
+//           </li>
+//           <li>Responsive and user-friendly interface for seamless navigation.</li>
+//         </ul>
+//       </section>
+
+//       <section className="mb-6">
+//         <h3 className="text-2xl font-semibold text-gray-700 mb-2">
+//           Our Vision
+//         </h3>
+//         <p className="text-gray-600">
+//           In the future, we aim to expand our library to include interactive
+//           content such as video tutorials and project ideas. We are also
+//           working on collaborating with educators to provide additional
+//           resources and personalized learning experiences.
+//         </p>
+//       </section>
+
+//       <section>
+//         <h3 className="text-2xl font-semibold text-gray-700 mb-2">
+//           Why Choose Us?
+//         </h3>
+//         <p className="text-gray-600">
+//           Unlike other platforms, BookWorld focuses solely on empowering
+//           engineering students by removing barriers to quality education.
+//           Whether you're preparing for exams, working on projects, or
+//           exploring new topics, we’ve got you covered.
+//         </p>
+//       </section>
+//     </div>
+//   </main>
+
+//   {/* Footer */}
+//   <footer className="bg-gray-800 text-white py-4">
+//     <div className="container mx-auto text-center">
+//       <p>&copy; {new Date().getFullYear()} BookWorld. All rights reserved.</p>
+//       <p>
+//         Follow us on{" "}
+//         <a href="#" className="text-blue-400 hover:underline">
+//           Instagram
+//         </a>{" "}
+//         and{" "}
+//         <a href="#" className="text-blue-400 hover:underline">
+//           Twitter
+//         </a>
+//       </p>
+//     </div>
+//   </footer>
+// </div>
+//   );
+// };
+
+// export default About;
+import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+
+const About = () => {
+  return (
+    <>
+      <Navbar />
+      <main className="flex-grow bg-gray-100 py-10 px-4 bg-pink-500 md:px-10">
+        <div className="container mx-auto max-w-4xl bg-white shadow-md rounded-lg p-6 mt-10">
+          <h2 className="text-3xl font-bold text-gray-800 mb-4 text-center">
+            About Us
+          </h2>
+          <p className="text-gray-600 mb-4 text-center">
+            Welcome to <span className="font-semibold">BookWorld</span>, your
+            go-to platform for free access to engineering books. Our mission is
+            to make education accessible and affordable for every student,
+            especially those pursuing technical fields.
+          </p>
+
+          <section className="mb-6">
+            <h3 className="text-2xl font-semibold text-gray-700 mb-2">
+              Our Mission
+            </h3>
+            <p className="text-gray-600">
+              We believe that quality education should not be a luxury. With
+              BookWorld, we aim to bridge the gap by offering a diverse
+              collection of books that students can read online or download for
+              free. This platform is specially curated for engineering students
+              to find resources tailored to their syllabus and interests.
+            </p>
+          </section>
+
+          <section className="mb-6">
+            <h3 className="text-2xl font-semibold text-gray-700 mb-2">
+              Key Features
+            </h3>
+            <ul className="list-disc list-inside text-gray-600">
+              <li>Read books online for free, anytime, anywhere.</li>
+              <li>Download books for offline access.</li>
+              <li>
+                Categorized collection of books covering all major engineering
+                branches and subjects.
+              </li>
+              <li>Responsive and user-friendly interface for seamless navigation.</li>
+            </ul>
+          </section>
+
+          <section className="mb-6">
+            <h3 className="text-2xl font-semibold text-gray-700 mb-2">
+              Our Vision
+            </h3>
+            <p className="text-gray-600">
+              In the future, we aim to expand our library to include interactive
+              content such as video tutorials and project ideas. We are also
+              working on collaborating with educators to provide additional
+              resources and personalized learning experiences.
+            </p>
+          </section>
+
+          <section>
+            <h3 className="text-2xl font-semibold text-gray-700 mb-2">
+              Why Choose Us?
+            </h3>
+            <p className="text-gray-600">
+              Unlike other platforms, BookWorld focuses solely on empowering
+              engineering students by removing barriers to quality education.
+              Whether you're preparing for exams, working on projects, or
+              exploring new topics, we’ve got you covered.
+            </p>
+          </section>
+        </div>
+      </main>
+      <Footer />
+    </>
+
+
+
+  );
+};
+
+export default About;
