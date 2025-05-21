@@ -10,7 +10,7 @@ function Course() {
   useEffect(() => {
     const getBookList = async () => {
       try {
-        const res = await axios.get("https://bookhaven-backend-xy6v.onrender.com");
+        const res = await axios.get("https://bookhaven-backend-xy6v.onrender.com/booklist");
         console.log(res.data);
         setBookList(res.data);
       } catch (error) {
