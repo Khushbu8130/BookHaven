@@ -1,7 +1,7 @@
 # BookHaven 📚✨  
 _A full-stack book sharing platform for students_  
 
-🚀 **Live Demo:** [BookHaven](https://bookhaven-demo-link.com)  
+🚀 **Live Demo:** [BookHaven]([https://bookhaven-demo-link.com](https://drive.google.com/file/d/1uBs4GQd4ArM8JOP3oE9IMbYS_gYo8z6M/view))  
 👩‍💻 **Author:** [Khushbu Kumari](https://www.linkedin.com/in/khushbu-kumari-b727b525a/)  
 
 ---
