@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "daisyui": "^4.12.14"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4"
   }
 }

@@ -16,9 +16,8 @@ function App() {
   console.log(authUser);
   return (
     <>
-
-
-      <Routes>
+<div className="dark:bg-slate-900 dark:text-white">
+  <Routes>
         <Route path="/" element={<Home />} />
         <Route
           path="/course"
@@ -28,8 +27,12 @@ function App() {
         <Route path="/contact" element={<Contacts />} />
         <Route path="/about" element={<About />} />
       </Routes>
-
       <Toaster />
+</div>
+
+      
+
+      
 
 
     </>
