@@ -40,7 +40,7 @@ function Banner() {
             reading starts here!
           </p>
           <div>
-            <label className="input input-bordered flex items-center gap-2  dark:text-black">
+            <label className="input input-bordered flex items-center gap-2  dark:text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
