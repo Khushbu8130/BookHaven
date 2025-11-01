@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <main className="flex-grow bg-gray-100 py-10 px-4 bg-pink-500 md:px-10">
+      <main className="flex-grow bg-black-100 py-10 px-4 bg-black-500 md:px-10">
         <div className="container mx-auto max-w-4xl bg-white shadow-md rounded-lg p-6 mt-10">
           <h2 className="text-3xl font-bold text-gray-800 mb-4 text-center">
             About Us

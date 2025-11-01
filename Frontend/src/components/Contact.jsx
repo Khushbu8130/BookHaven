@@ -37,7 +37,7 @@ function Contact() {
           <div
             className="flex justify-center"
             style={{
-              background: 'radial-gradient(circle, rgba(252,70,107,1) 40%, rgba(252,70,107,1) 100%)',
+              background: 'radial-gradient(circle, rgb(17 12 13) 40%, rgb(17 7 9) 100%)',
               height: '250px',
             }}
           >

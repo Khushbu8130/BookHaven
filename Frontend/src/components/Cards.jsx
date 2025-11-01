@@ -7,6 +7,7 @@ function Cards({ item }) {
     <>
       <div className="mt-4 my-3 p-3">
         <div className="card w-92 h-[450px] bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
+  
           <figure>
             {item.image ? (
               <img src={item.image} alt={item.name} className="h-30 w-50 object-cover" />
