@@ -3,46 +3,46 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
 import path from "path";
+import { fileURLToPath } from "url";
 
 import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
 import booklistRoute from "./route/booklist.route.js";
 
-app.use(express.static(path.join(__dirname, "client", "build")));
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
-});
-const __dirname = path.resolve();
-const app = express();
-
-app.use(cors({ origin: "http://localhost:5173", credentials: true }));
-app.use(express.json());
-
 dotenv.config();
 
+// Setup __dirname for ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const app = express();
+
+// Middleware
+app.use(cors({ origin: "*", credentials: true }));
+app.use(express.json());
+
+// MongoDB Connection
 const PORT = process.env.PORT || 4000;
 const URI = process.env.MongoDBURI;
 
-// connect to mongoDB
-try {
-    mongoose.connect(URI, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-    });
-    console.log("Connected to mongoDB");
-} catch (error) {
-    console.log("Error: ", error);
-}
+mongoose
+  .connect(URI)
+  .then(() => console.log("✅ Connected to mongoDB"))
+  .catch((error) => console.log("❌ MongoDB connection error:", error));
 
-// defining routes
+// Routes
 app.use("/book", bookRoute);
 app.use("/user", userRoute);
 app.use("/booklist", booklistRoute);
 
-app.listen(PORT, () => {
-    console.log(`Server is listening on port ${PORT}`);
+// ---------------------- Serve Frontend ----------------------
+app.use(express.static(path.join(__dirname, "../client/build")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
 });
+// ------------------------------------------------------------
 
-
-
+app.listen(PORT, () => {
+  console.log(`🚀 Server is listening on port ${PORT}`);
+});
