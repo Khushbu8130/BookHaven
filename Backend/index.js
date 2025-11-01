@@ -27,19 +27,21 @@ const URI = process.env.MongoDBURI;
 
 mongoose
   .connect(URI)
-  .then(() => console.log("✅ Connected to mongoDB"))
+  .then(() => console.log("✅ Connected to MongoDB"))
   .catch((error) => console.log("❌ MongoDB connection error:", error));
 
-// Routes
+// API Routes
 app.use("/book", bookRoute);
 app.use("/user", userRoute);
 app.use("/booklist", booklistRoute);
 
 // ---------------------- Serve Frontend ----------------------
-app.use(express.static(path.join(__dirname, "../client/build")));
+const buildPath = path.join(__dirname, "../Frontend/dist"); // 
+
+app.use(express.static(buildPath));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
+  res.sendFile(path.join(buildPath, "index.html"));
 });
 // ------------------------------------------------------------
 
