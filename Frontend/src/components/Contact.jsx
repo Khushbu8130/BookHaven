@@ -46,7 +46,8 @@ function Contact() {
           <div className="px-4 sm:w-2/3 lg:w-1/2 mx-auto">
             <div className="rounded-lg shadow-lg bg-white -mt-24 py-10 md:py-12 px-4 md:px-6">
 
-              <div className="grid grid-cols-2 gap-x-6 mb-12 max-auto">
+             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12 text-center sm:text-left">
+
                 <IconInfo icon={<IconEmail />} text={<span className="text-blue-500">bookhaven627@gmail.com</span>} />
                 <IconInfo icon={<IconPhone />} text={<span className="text-blue-500">+91 7673783298</span>} />
               </div>
