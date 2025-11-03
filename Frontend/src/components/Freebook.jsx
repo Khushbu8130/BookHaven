@@ -26,40 +26,44 @@ function Freebook() {
   }, []);
 
 
-    var settings = {
-      dots: true,
-      infinite: false,
-      speed: 500,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      initialSlide: 0,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-    };
+   var settings = {
+  dots: true,
+  infinite: false, // keep as false (your desktop works fine)
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 4, // ✅ desktop: 4 at a time
+  initialSlide: 0,
+  responsive: [
+    {
+      breakpoint: 1024, // tablets
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 600, // mobile landscape
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1, // ✅ scroll 1 item at a time
+        infinite: true,
+        initialSlide: 0,
+      },
+    },
+    {
+      breakpoint: 480, // mobile portrait
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1, // ✅ scroll 1 item at a time
+        infinite: true,
+        initialSlide: 0,
+      },
+    },
+  ],
+};
+
     
   return (
     <>
@@ -69,12 +73,25 @@ function Freebook() {
       <p><span className="text-pink-500">Looking for more?</span> Visit the <a href="/course"><b><u>Courses</u></b></a> section for additional books organized by branches and subjects.</p></div>
      
     </div>
+         <style>
+        {`
+          .slick-dots li button:before {
+            color: white !important;
+            opacity: 0.75;
+          }
+          .slick-dots li.slick-active button:before {
+            color: white !important;
+            opacity: 1;
+          }
+        `}
+      </style>
     <div>
-    <Slider {...settings}>
-       {book.map((item)=>(
-        <Cards item={item} key={item.id} />
-       ))}
-      </Slider>
+   <Slider key={book.length} {...settings}>
+  {book.map((item) => (
+    <Cards item={item} key={item._id || item.id} />
+  ))}
+</Slider>
+
       </div>
     </>
   
