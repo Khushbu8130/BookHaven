@@ -10,7 +10,7 @@ function Course() {
   useEffect(() => {
     const getBookList = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/booklist");
+        const res = await axios.get("https://bookhavenn.onrender.com/booklist");
         console.log(res.data);
         setBookList(res.data);
       } catch (error) {
